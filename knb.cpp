@@ -9,7 +9,8 @@ int main(){
 	cout<<"INSTRUCTION"<<endl;
 	cout<< "Enter rock, scissors or paper: "; 
 	cin >>a;
-		if (a == "rock" or a == "scissors" or a =="paper"){		
+	int b= 0;// Суворов
+	if (a == "rock" or a == "scissors" or a =="paper"){		
 			if (a == "rock"){
 		cout <<"You have choosen rock"<<endl;
 	}
