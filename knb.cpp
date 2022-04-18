@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <ctime>
 using namespace std;
+setlocale(LC_ALL, "rus");
 int main(){
 	string var[3] = {"rock", "scissors", "paper"};
 	srand(time(NULL));
